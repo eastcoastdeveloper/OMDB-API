@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,7 @@ export class AppComponent implements OnDestroy {
 
   private unsubscribe$ = new Subject<void>();
   private baseUrl = 'https://www.omdbapi.com/?t=';
-  private key = 'YOUR_API_KEY';
+  private key = environment.apiKey;
   protected dataArr: any = [];
 
   urlOMDB = 'https://www.omdbapi.com/';
