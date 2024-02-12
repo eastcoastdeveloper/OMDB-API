@@ -1,9 +1,9 @@
 # Omdb
 
-OMDB API: https://www.omdbapi.com/
-Get you API key at: https://www.omdbapi.com/apikey.aspx
-Plug it into environment.ts in the environments directory
-ng serve to run the app.
+OMDB API: https://www.omdbapi.com/<br />
+Get you API key at: https://www.omdbapi.com/apikey.aspx<br />
+Plug it into environment.ts in the environments directory<br />
+ng serve to run the app.<br />
 
 ## Development server
 
