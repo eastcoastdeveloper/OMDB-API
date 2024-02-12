@@ -1,4 +1,4 @@
-# Omdb
+# OMDB API
 
 OMDB API: https://www.omdbapi.com/<br />
 Get you API key at: https://www.omdbapi.com/apikey.aspx<br />
