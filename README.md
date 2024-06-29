@@ -1,6 +1,9 @@
-# Omdb
+# OMDB API
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+OMDB API: https://www.omdbapi.com/<br />
+Get you API key at: https://www.omdbapi.com/apikey.aspx<br />
+Plug it into environment.ts in the environments directory<br />
+ng serve to run the app.<br />
 
 ## Development server
 
